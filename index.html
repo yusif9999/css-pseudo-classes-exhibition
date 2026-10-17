@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Antiquity Museum - Special Exhibition</title>
+</head>
+<body>
+    <div class="container clearfix">
+        <h1>Treasures of Egypt - Special Exhibition</h1>
+        <div class="afis">
+            <span>20% Discount</span>
+        </div>
+        <div class="content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ticket Type</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Adult</td>
+                        <td>200 TL</td>
+                    </tr>
+                    <tr>
+                        <td>Student</td>
+                        <td>100 TL</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="rules">
+                <h2>Visiting Rules</h2>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-camera"></i>
+                        Flash photography is strictly prohibited.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-burger"></i>
+                        Food or drinks are not allowed in the exhibition hall.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-hand"></i>
+                        Do not touch the historical artifacts and display cases.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-volume-xmark"></i>
+                        Please be quiet so as not to disturb other visitors.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        Please switch mobile phones to silent mode.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-clock"></i>
+                        Visiting time is limited to 45 minutes due to crowds.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-wheelchair"></i>
+                        The area is suitable for wheelchair use.
+                    </li>
+                </ul>
+            </div>
+            <form action="#" method="post">
+                <h2>Quick Reservation</h2>
+                <div class="eMail">
+                    <label for="eMailAddress">Your Email Address (Required):</label>
+                    <input type="email" id="eMailAddress" placeholder="example@gmail.com" required>
+                </div>
+                <div class="checkbox">
+                    <strong>Ticket Type:</strong>
+                    <br>
+                    <input type="radio" id="yetiskinBileti" name="ticket" required>
+                    <label for="yetiskinBileti" class="ticketLabel">Adult Ticket</label>
+                    <br>
+                    <input type="radio" id="ogrenciBileti" name="ticket" required>
+                    <label for="ogrenciBileti">Student Ticket</label>
+                    <br>
+                    <input type="radio" id="vipTurBileti" name="ticket" disabled>
+                    <label for="vipTurBileti">VIP Tour Ticket (Sold Out)</label>
+                </div>
+                <div class="buttonDiv">
+                    <button type="submit">Proceed to Payment</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
